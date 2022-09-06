@@ -1,0 +1,130 @@
+#barra {
+    height: 195px;
+    padding: 100px;
+    padding-top: 15px;
+    position: fixed;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.ody{
+    flex-direction: column;
+    align-items: center;
+}
+
+#barra-container {
+    flex-direction: column;
+    display: flex;
+}
+
+#barra-opcoes {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px
+}
+
+
+#barra-opcoes {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#barra-opcoes li {
+    padding: 6px;
+    border-bottom: 0.1px solid #fff;
+
+}
+
+#home {
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    display: flex;
+}
+
+#home-container {
+    width: 100%;
+
+}
+
+.saiba1 {
+    width: 50%;
+    height: 45%;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    background: #b0383a;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0.6em #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#solucoes {
+    justify-content: center;
+    text-align: center;
+}
+
+#solucoes1-container {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    height: inherit;
+
+}
+
+.solucoes2-container {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 50px;
+    margin-top: 10px;
+
+}
+
+.solucoes2 {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+#contato1-container {
+    width: 100%;
+    height: 55vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.contato2-container {
+    grid-template-columns: 1fr;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 56px;
+    word-spacing: 1px;
+    
+}
